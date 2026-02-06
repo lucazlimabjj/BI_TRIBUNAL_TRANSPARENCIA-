@@ -9,49 +9,36 @@ Analisar a saúde financeira e a eficiência na execução dos programas governa
 
 ### 1. Execução Geral
 Focada em indicadores globais (KPIs) como Total Empenhado, Total Pago e Saldo a Pagar.
-![Execução Geral](<img width="1430" height="794" alt="visao_executiva" src="https://github.com/user-attachments/assets/3eb3cd9e-ca4d-4f67-8ddf-9f9f84dad37f" />)
-
+<img src="https://github.com/user-attachments/assets/3eb3cd9e-ca4d-4f67-8ddf-9f9f84dad37f" alt="Visão Executiva" width="100%">
 
 ### 2. Estrutura Orçamentária
 Análise da concentração de gastos por órgãos e áreas, além da composição por natureza da despesa.
-![Estrutura Orçamentária](<img width="1430" height="782" alt="Estrutura e Concentração do Orçamento" src="https://github.com/user-attachments/assets/a321ff66-22e4-41b8-bbf6-05d23dc84a01" />)
+<img src="https://github.com/user-attachments/assets/a321ff66-22e4-41b8-bbf6-05d23dc84a01" alt="Estrutura e Concentração" width="100%">
 
 ### 3. Gargalos e Eficiência
 Cruzamento entre volume financeiro e percentual de liquidação por programa.
-![Gargalos e Eficiência](<img width="1428" height="800" alt="Gargalos e Eficiência" src="https://github.com/user-attachments/assets/fe402e6c-4c6e-4dc4-bcfc-44572aa96ca0" />)
+<img src="https://github.com/user-attachments/assets/fe402e6c-4c6e-4dc4-bcfc-44572aa96ca0" alt="Gargalos e Eficiência" width="100%">
 
-## 📈 Principais Insights e Análise de Dados
+## 📈 Análise de Dados e Insights Estratégicos
 
-Abaixo estão as principais conclusões extraídas a partir da análise dos dados de execução orçamentária do exercício atual:
+Com base no processamento dos dados do exercício atual, as seguintes conclusões foram extraídas:
 
-### 1. Descompasso entre Empenho e Pagamento
-* **Baixa Liquidez Geral:** O dashboard revela que, do total de **R$ 884,46 bilhões** empenhados, apenas **R$ 57,71 bilhões** (6,52%) foram efetivamente pagos.
-* **Gargalo de Final de Ano:** Observa-se um pico agressivo de empenhos no mês de **dezembro**, enquanto o ritmo de pagamentos permaneceu estável ao longo de todo o ano, indicando uma alta concentração de reservas orçamentárias no encerramento do exercício.
+* **Gargalo de Liquidez:** O estado apresenta um volume de empenho de **R$ 884,46 bilhões**, porém apenas **6,52% (R$ 57,71 bilhões)** foram efetivamente pagos até o momento.
+* **Sazonalidade Crítica:** A análise mensal revela que o empenho dispara no mês de **dezembro**, enquanto o ritmo de pagamento permanece linear, indicando uma alta reserva de orçamento no fechamento do ano que não se traduz em desembolso imediato.
+* **Concentração Orçamentária:** Os **Encargos Gerais do Estado** e o **Fundo FUNAPREV** lideram o volume financeiro, seguidos de perto pela Secretaria de Educação e Polícia Militar.
+* **Eficiência de Execução:** Programas como o **Desenvolvimento do Porto do Pecém** e o **Fortalecimento do Comércio** atingiram **100% de eficiência** no pagamento, enquanto as maiores dívidas (Atraso Financeiro) concentram-se em encargos administrativos e previdenciários.
 
-### 2. Concentração de Gastos por Órgão e Área
-* **Gargalos Estruturais:** Os **Encargos Gerais do Estado** e o **Fundo Financeiro FUNAPREV** dominam o volume de gastos, somando quase **R$ 300 bilhões** em empenhos.
-* **Áreas Prioritárias:** Fora os encargos especiais, as áreas de **Segurança Pública** (R$ 142 Bi) e **Previdência Social** (R$ 133 Bi) são as que mais consomem o orçamento público em comparação com Educação e Saúde.
-
-### 3. Eficiência de Execução vs. Volume Financeiro
-* **Eficiência em Projetos de Infraestrutura:** Programas focados em desenvolvimento, como o **Complexo Industrial e Portuário do Pecém** e o **Fortalecimento do Comércio e Serviços**, apresentam **100% de eficiência** no pagamento.
-* **Atrasos Críticos:** Em contrapartida, os programas que concentram o maior **Atraso Financeiro** absoluto são justamente os de maior volume (Encargos Gerais e Previdência Estadual), o que sugere que a complexidade administrativa destes órgãos impacta diretamente a velocidade de desembolso.
-
-## 🛠️ Tecnologias e Habilidades Utilizadas
+## 🛠️ Tecnologias e Habilidades
 * **Power BI Desktop:** Modelagem de dados e criação de visuais.
-* **DAX (Data Analysis Expressions):** Criação de medidas para cálculo de porcentagens e saldos.
-* **UX/UI Design:** Criação de layout personalizado em **SVG** com navegação intuitiva entre páginas e paleta de cores institucional.
-* **Análise de Dados:** Tratamento de dados públicos para identificação de tendências sazonais (ex: aumento de empenhos em dezembro).
-
-## 📂 Estrutura do Repositório
-* `/dados`: Arquivo base utilizado (CSV/Excel).
-* `/layout`: Arquivos SVG utilizados para o plano de fundo.
-* `Dashboard_Ceara_Transparente.pbix`: Arquivo original do Power BI.
+* **DAX:** Desenvolvimento de medidas para cálculo de saldos e percentuais de eficiência.
+* **UX/UI Design:** Layout personalizado em **SVG** com modo escuro (`#1B263B`) para melhor legibilidade.
+* **Análise de Dados:** Interpretação de dados públicos e identificação de tendências financeiras.
 
 ## 👤 Autor
 **Lucas Oliveira Soares Lima**
-* 🎓 Graduando em Análise e Desenvolvimento de Sistemas - **FB UNI**.
-* 🛡️ Interessado em Segurança da Informação, Cloud Security e Data Science.
-* 💼 Estagiário de QA na Stigma System (Claro).
+* 🎓 Graduando em Análise e Desenvolvimento de Sistemas - **Centro Universitário Farias Brito (FB UNI)**.
+* 💼 Estagiário de QA na **Stigma System** (Projeto Claro).
+* 🛡️ Foco em Data Science, Quality Assurance e Segurança da Informação.
 
 ---
 *Este projeto foi desenvolvido para fins acadêmicos e de portfólio profissional.*
